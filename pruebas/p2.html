@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p2style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div id="top">
+            <h1>Bienvenido a mi pagina web</h1>
+            <p>Usa el menu para seleccionar los diferestes estilos</p>
+        </div>
+        <div class="envoltorio">
+            <div id="barra-menu">
+                <ul id="menu-lista">
+                    <li class="menuitem" onclick="reStyle(0)">Estilo de hoja 1</li>
+                    <li class="menuitem" onclick="reStyle(1)">Estilo de hoja 2</li>
+                    <li class="menuitem" onclick="reStyle(2)">Estilo de hoja 3</li>
+                </ul>
+            </div>
+            <div id="main">
+                <h1>Misma pagina diferente estilo</h1>
+                <p>Esta demostracion muestra como diferentes estilos de hoja pueden cambiar la disposicion de tu html
+                    . Tu puedes cambiar la disposicion de esta pagina seleccionando diferrentes estilos en el menu, o 
+                    seleccionando uno sobre estos links:
+                    <a href="#" onclick="reStyle(0);return false">Estilo de hoja 1</a>
+                </p>
+            </div>
+            <div id="sidebar">
+                <h3>Sitio de barra</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iure sunt voluptatem qui cumque dolor ut tempore dicta dolorem amet illo, obcaecati fugit. Porro, velit provident esse atque mollitia modi!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

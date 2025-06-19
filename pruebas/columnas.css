@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.col-i {
+    background-color: #8f2626;
+    padding: 10px;
+    margin: 0 5px;
+}
+.col-c {
+    background-color: #a33737;
+    padding: 10px;
+    margin: 0 5px;
+}
+.col-d {
+    background-color: #e44d4d;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.contenedor {
+    margin: auto;
+    display: flex;
+    width: 900px;
+    height: 800px;
+    background-color: rgb(156, 211, 248);
+    justify-content: space-around;
+}

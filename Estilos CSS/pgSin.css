@@ -1,0 +1,94 @@
+header {
+    border: 5px ridge white;
+    background-color: #010213;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav {
+    border: 5px ridge white;
+    text-align: center;
+    margin-top: 10px;
+}
+section {
+    width: 75%;
+    margin-top: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+aside{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 270px;
+    width: 320px;
+    right: 30px;
+    height: 350px;
+    background-color: rgb(17, 10, 10);
+}
+body {
+    margin: auto;
+    padding: 50px;
+    background-color: black;
+    font: 100% Courier New;
+}
+h1 {color: #84c754;font-size: 50px;}      h2 {color: #84c754;font-size: 40px;}        p {color: #84c754;font-size: 20px;}        li {color: #84c754;display: inline;}
+#PepeTac {
+/*  margin: auto; <-- Funciona para centralizar unicamente para textos */
+    border: 3px solid green;
+    margin: auto;
+}
+#peepobottom {
+    width: 200px;
+    margin: auto;
+}
+#Boton1 {
+    padding-right: 600px;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: red;
+    border: 2px solid rgb(238, 179, 18);
+   /* width: 60%;*/
+}
+.contenido {
+    border: 5px ridge white;
+    padding: 50px;
+    margin: 20px;
+
+}
+#pepodan {
+    width: 450px;
+}
+#oneMet {
+    width: 450px;
+}
+#bobgil {
+    width: 450px;
+}
+.lista {
+    color: #84c754;
+}
+.menuitem {
+    color: #84c754;
+    cursor: pointer;
+}
+#panel1 {
+    border: 5px double white;
+    padding: 20px;
+    margin: 20px;
+    width: 320px;
+    background-color: rgb(17, 10, 10);
+}
+h3 {    color: #84c754;}       a {color: aquamarine;}
+#reloj-contenedor {text-align: center;color: #84c754;}      #date, #time {font-size: 40px;margin-bottom: 10px;}        #pepocom {margin-top: 20px;}   #ptroll {width: 50%;}
+
+footer {
+    align-items: flex-start;
+}
+
+#Posicion2{
+    width: 600px;
+    padding-left: 230px;
+}
