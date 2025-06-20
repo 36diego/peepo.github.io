@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>WWWWWWELCOME</title>
     <link rel="stylesheet" href="Estilos CSS/pgSin.css">
     <link rel="icon" href="image.png">
     <style>
@@ -37,16 +37,28 @@
             margin: 16px 0;
             font-size: 16px;
         }
+
+        input, button{
+            border: 3px solid rgb(50, 197, 50);
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+
     </style>
 </head>
 <body>
     <div style="text-align: center; margin-top: 100px;">
         <a href="index.html"> <img src="https://i.pinimg.com/736x/d9/48/37/d948372f77d8e3bcdc11068e96eee49d.jpg" alt="PepoTactico" width="142" height="142" id="PepeTac"></a>
+
+    <form id="saludoForm">
+        <input type="text" id="tagInput" placeholder="Tu nombre o tag" required>
+        <button type="submit">Entrar</button>
+    </form>
+
     </div>
 
-    <section class="form">
-        <input class="con" type="text" name="nombre" id="nombres" placeholder="Ingresar su nombre de usuario">
-        <input class="botonn" type="submit" value="Ingresar">
-    </section>
+    <script src="JavaScript/relojscr.js"></script>
+    <script src="JavaScript/forma.js"></script>
 </body>
 </html>
