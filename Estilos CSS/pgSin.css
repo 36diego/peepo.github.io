@@ -26,6 +26,7 @@ aside{
     right: 30px;
     height: 350px;
     background-color: rgb(17, 10, 10);
+    padding-right: 40px;
 }
 body {
     margin: auto;
@@ -99,4 +100,10 @@ footer {
     padding-left: 100px;
 }
 
+#marco{
+    border: 4px double red;
+}
 
+#marcoInvisible{
+    padding-left: 60px;
+}

@@ -18,8 +18,9 @@ function mostrarSaludo(){
     const saludo = document.getElementById("saludo");
 
     if (nombre) {
-        saludo.textContent = `Bienvenido a la pagina ${nombre}!.`;
+        saludo.textContent = `Bienvenido a la pagina SCP: ${nombre}. `;
     } else {
-        saludo.textContent = "Hola, ingrese su nombre en el formulario para saber su nombre.";
+        saludo.textContent = "Identifiquese en El formulario de la pepona.";
     }
 }
+
