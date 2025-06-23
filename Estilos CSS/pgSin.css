@@ -34,7 +34,10 @@ body {
     background-color: black;
     font: 100% Courier New;
 }
-h1 {color: #84c754;font-size: 50px;}      h2 {color: #84c754;font-size: 40px;}        p {color: #84c754;font-size: 20px;}        li {color: #84c754;display: inline;}
+h1 {color: #84c754;font-size: 50px;}      h2 {color: #84c754;font-size: 40px;}        p {color: #84c754;font-size: 20px;}        .li1 {color: #84c754;display: inline;}
+
+ul{color: #84c754;}
+
 #PepeTac {
 /*  margin: auto; <-- Funciona para centralizar unicamente para textos */
     border: 3px solid green;
@@ -59,6 +62,23 @@ h1 {color: #84c754;font-size: 50px;}      h2 {color: #84c754;font-size: 40px;}  
     margin: 20px;
 
 }
+
+.contenido2{
+    display: flex;
+    align-items: stretch;
+    border: 5px ridge red;
+    padding: 10px;
+}
+
+.contenido3{
+    align-items: flex-start;
+    border: 5px ridge white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 #pepodan {
     width: 450px;
 }
@@ -106,4 +126,6 @@ footer {
 
 #marcoInvisible{
     padding-left: 60px;
+    align-items: flex-start;
+    border: 6px white;
 }

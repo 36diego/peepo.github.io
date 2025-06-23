@@ -22,9 +22,8 @@
     
     <nav>
         <ul>
-            <li> | <a href="formulario.html" style="color: #84c754;">El formulario de la pepona &#128511;(No disponible)</a> | </li>
-            <li><a href="formulario.html" style="color: #84c754;">La biblioteca de pepobabel &#128511;(No disponible)</a> | </li>
-            <li><a href="formulario.html" style="color: #84c754;">El chat de los pepos &#128511;(No disponible)</a> | </li>
+            <li class="li1"> | <a href="formulario.html" style="color: #84c754;">El formulario de la pepona &#128511;</a> | </li>
+            <li class="li1"><a href="formulario.html" style="color: #84c754;">La biblioteca de pepobabel &#128511;(No disponible)</a> | </li>
         </ul>
     </nav>
 
@@ -36,7 +35,7 @@
             <p id="saludo" style="color: white;"></p>
             <script src="JavaScript/forma.js"></script>
             <script>mostrarSaludo();</script>
-            <img src="gif/locked-in-alien.gif" alt="" width="260px">
+            <img src="gif/peposit2.gif" alt="" width="320px">
         </div>
         <div id="marcoInvisible">
             <h2 id="demo" style="text-align: center;">Elije tu pepo:</h2>
@@ -44,7 +43,7 @@
                 <a onclick="myFunction()" href="#"><img src="https://i.pinimg.com/originals/a4/14/8b/a4148bffad42498ffe093a8ae8803a9d.gif" alt="mas juguitos" style="width: 142px; 
                  height: 142px;"></a>
             </div>
-            <div id="marco">
+            <div class="contenido2">
                 <img src="gif/bee.gif" alt="" width="250" height="270">
                 <img src="https://media.tenor.com/d45p3zv_GOUAAAAi/peepo-driving.gif" alt="pepodrive" height="200" width="350">
                 <img src="img/pepocu.jpeg" alt="" width="200">
@@ -61,32 +60,47 @@
         <img src="img/peepocompu.jpeg" alt="pepocompu" width="200" height="200" id="pepocom" >
     </aside>
 
-    <div class="contenido">
+    <div class="contenido2">
+        <div class="contenido">
+            <p style="color: white;">Peepos Music:</p>
+            <video controls id="pepodan">
+                <source src="Videos/peposdan.mp4" type="video/mp4">
+            </video>
+        </div> 
+
+        <div class="contenido">
         <p style="color: white;">
             Pruebas de apis de HTML y JavaScript
-        </p>
-        <div>
-            <button type="button" onclick='document.getElementById("mode").innerHTML = "Ani repoko che botón rehe"'>??????</button>
-            <button type="button" onclick="document.getElementById('mode').style.color='Red'">¡¡¡¡¡¡¡¡¡¡</button>
-            <button type="button" onclick='document.getElementById("mode").innerHTML = "Janiw nayan botón ukar llamktʼañamäkiti"'>1</button>
-            <button onclick="document.getElementById('kek').src='img/2.jpeg'">2</button>
-            <p id="mode">No me toque lo botone</p>
-            <img src="img/1.jpeg" alt="" id="kek">
+            </p>
+            <div>
+                <button type="button" onclick='document.getElementById("mode").innerHTML = "Ani repoko che botón rehe"'>??????</button>
+                <button type="button" onclick="document.getElementById('mode').style.color='Red'">¡¡¡¡¡¡¡¡¡¡</button>
+                <button type="button" onclick='document.getElementById("mode").innerHTML = "Janiw nayan botón ukar llamktʼañamäkiti"'>1</button>
+                <button onclick="document.getElementById('kek').src='img/2.jpeg'">2</button>
+                <p id="mode">No me toque lo botone</p>
+                <img src="img/1.jpeg" alt="" id="kek">
+            </div>
         </div>
-    </div>
 
-    <div class="contenido">
-        <p style="color: white;">Peepos Music:</p>
-        <video controls id="pepodan">
-            <source src="Videos/peposdan.mp4" type="video/mp4">
-        </video>
-    </div>
-        <div class="contenido">
-            <p style="color: white;">Peepomems</p>
-            <img src="img/lt.jpg" alt="" width="300">
-            <img src="img/los pe.png" alt="" id="Posicion2">
-            <img src="img/peposit.png" alt="" id="Posicion3">
+        <div class="contenido3">
+            <img src="gif/pepoHac.gif" alt="" width="100px">
+            <p>Empeza a tipear.</p>
+            <div>           
+                <input id="input" placeholder="Escribí tu mensaje">
+                <button onclick="enviar()">Enviar</button>
+                <ul id="chat"></ul>            
+
+                <script src="JavaScript/chat.js"></script>
+                <script>enviar()</script>
+            </div>
         </div>
+    </div>
+    <div class="contenido">
+        <p style="color: white;">Peepomems</p>
+        <img src="img/lt.jpg" alt="" width="300">    
+        <img src="img/los pe.png" alt="" id="Posicion2">
+        <img src="img/peposit.png" alt="" id="Posicion3">
+    </div>        
     <hr>
     <footer>
         <p>Admin: ElCa</p>

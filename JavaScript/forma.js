@@ -23,4 +23,3 @@ function mostrarSaludo(){
         saludo.textContent = "Identifiquese en El formulario de la pepona.";
     }
 }
-
